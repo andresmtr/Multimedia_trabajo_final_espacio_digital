@@ -1,0 +1,133 @@
+<HTML>
+<HEAD>
+  
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>UNAD - multimedia fase 4</title>
+    <!-- <style type="text/css" link=""></style>-->
+    <link rel="stylesheet" type="text/css" href="css\style_app.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link href='img/IconPng.png' rel='shortcut icon' type='image/png'/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>
+$(function() {
+    var pull = $('#pull');
+    menu = $('nav ul');
+    menuHeight = menu.height();
+
+    $(pull).on('click', function(e) {
+        e.preventDefault();
+        menu.slideToggle();
+    });
+});
+
+$(window).resize(function(){
+    var w = $(window).width();
+    if(w > 320 && menu.is(':hidden')) {
+        menu.removeAttr('style');
+    }
+});
+</script>
+
+
+
+
+
+</HEAD>
+<BODY>
+
+
+
+  <!-- Header -->
+
+ <!--<font color="black"/>-->
+
+<div class = "Contenedor">
+
+
+
+<!-- HEADER-->
+
+<header> 
+
+<center>
+
+<h2>UNAD - ingresa y se parte de esta familia</h2>
+
+    <div class="ML2">
+
+    <img class="ML2" src="img/unad.png" alt="Unad"></a>
+
+</center>
+
+
+
+<br>
+
+
+
+<!-- NAV -->
+
+<nav> 
+  <ul>
+    <li><a href="1menu.html">Inicio</a></li>
+    <li><a href="2articulou.html">Articulo UNAD</a></li>
+    <li><a href="3articulot.html">Articulo tecnología</a></li>
+    <li><a href="4estudiar.html">¿Por que estudiar en la UNAD?</a></li>
+    <li><a href="5matricularse.html">¿Como matricularte?</a></li>
+    <li><a href="6acciones.html">Acciones vicerrectoria</a></li><br clear="all" />
+  </ul>
+  <!-- <a id="pull" href="#">Menu</a>-->
+</nav> 
+
+
+
+
+<br>
+</header>
+
+
+
+<section>
+	<center>
+       <!--<a class="boton_personalizado" href="Menu.php">Menu</a>-->
+
+        <p> El siguiente espacio digital, contiene el desarrollo de la fase 4 de multimedia, de acuerdo a todo lo visto en el transcurso del periodo con lo siguiente:</p>
+
+
+        <ol>
+  			<li>Nombre creativo relacionado a la UNAD (Se ve en el encabezado de la pagina)</li>
+  			<li>Articulo publicitario para la UNAD, invitando a matricularse a la universidad</li>
+  			<li>Articulo de tecnología</li>
+  			<li>¿Por que estudiar en la UNAD?</li>
+  			<li>¿Como matricularte en la UNAD?</li>
+  			<li>Acciones de la vicerrectoria</li>
+		</ol>
+
+
+    </center>
+
+
+
+</section>
+   
+
+
+ <footer>
+  
+  <p class="justify-content"> UNAD - Multimedia</p>
+  <p class="justify-content"> Designed by Andres Triana - 2019  </p>
+
+
+
+</footer>
+
+
+<!-- Main -->
+
+
+
+</div>
+
+</BODY>
+</HTML>
